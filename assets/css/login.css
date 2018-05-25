@@ -1,0 +1,69 @@
+html,body{
+    font-family: 'roboto';
+}
+p{
+    margin: 0px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.login{
+    margin-top: 120px;
+}
+.no-padding{
+    padding: 0;
+}
+.top-section{
+    background-color: #ad2f2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.top-section p.siput-header{
+    background-color: #e6553a;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.top-section p.siput-subheader{
+    background-color: #e6553a;
+    color: #f8cbc2;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.down-section{
+    background-color: #2d292a;
+    color: white;
+}
+.down-section p.login-header{
+    color: #ec7c68;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.down-section p.login-subheader{
+    color: #a6a6a6;
+    margin-bottom: 10px;
+}
+.inner-down{
+    padding: 30px;
+    padding-top: 10px;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+.login-btn{
+    font-size: 16px;
+    background-color: #3a97e5;
+    border: 0px;
+    padding: 8px 20px 8px 20px;
+}
+.logo-span{
+    font-size: 35px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}

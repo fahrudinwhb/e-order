@@ -1,0 +1,55 @@
+@media (max-width: 768px){
+  .guruku-judul-utama{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .guruku-tanggal{
+    font-size: 12px;
+  }
+  .guruku-berita{
+    font-size: 18px;
+  }
+  .guruku-gambar-berita img{
+    height: 100px;
+  }
+  .guruku-judul-berita{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-bottom: 0px;
+  }
+  .guruku-tanggal-berita{
+    font-size: 12px;
+  }
+  .guruku-cuplikan-berita2{
+    background-color: #f9f9f9;
+    height: 100px;
+  }
+  .guruku-berita-populer{
+    border-left: 1px solid white;
+  }
+  .guruku-judul-berita2{
+    margin: 0px;
+  }
+  .guruku-tanggal{
+    margin: 0px;
+  }
+  .guruku-garis{
+    margin-top: 0px;
+  }
+  .guruku-populer{
+    background-color: #7e0001;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+  }
+  .guruku-detail-gambar img{
+    margin-bottom: 10px;
+    height: auto;
+  }
+  .artikel-isi{
+    text-align: justify;
+  }
+}

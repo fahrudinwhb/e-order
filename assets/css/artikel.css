@@ -1,0 +1,157 @@
+body{
+    background-color: #f7f7f7;
+}
+.detail-artikel-wrap{
+    box-shadow: 0px 0px 8px #C1BBD9;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.guruku-judul-utama a{
+  text-decoration: none;
+  color: #f58712;
+}
+.guruku-judul-utama a:hover{
+  text-decoration: none;
+  color: rgba(245, 135, 18, 0.8);
+}
+.guruku-judul-berita a{
+  text-decoration: none;
+  color: #f58712;
+}
+.guruku-judul-berita a:hover{
+  text-decoration: none;
+  color: rgba(245, 135, 18, 0.8);
+}
+.guruku-judul-berita2 a{
+  text-decoration: none;
+  color: #f58712;
+}
+.guruku-judul-berita2 a:hover{
+  text-decoration: none;
+  color: rgba(245, 135, 18, 0.8);
+}
+.guruku-cuplikan div a{
+  text-decoration: none;
+  color: #dc2a2a;
+  /*font-style: italic;*/
+  font-weight: 500;
+}
+.guruku-cuplikan a:hover{
+  text-decoration: none;
+  opacity: 0.7;
+}
+a p .guruku-cuplikan-berita2{
+  text-decoration: none;
+  color: #000000;
+}
+a:hover p .guruku-cuplikan-berita2{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.guruku-berita-baru img{
+  /*height: 300px;*/
+}
+.guruku-berita{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  font-size: 25px;
+}
+.guruku-gambar-berita img{
+  /*height: 200px;*/
+}
+.guruku-garis{
+  height: 1px;
+  width: 100%;
+  background-color: #7e0001;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+.guruku-judul-utama{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.guruku-judul-berita{
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.guruku-tanggal-berita{
+  font-size: 16px;
+}
+/*.guruku-judul-berita2{
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}*/
+.guruku-cuplikan-berita{
+  background-color: #f9f9f9;
+  height: 300px;
+}
+.guruku-berita p{
+  color: white;
+  background-color: #7e0001;
+  padding: 10px;
+}
+.guruku-cuplikan-berita2{
+  background-color: #f9f9f9;
+}
+.guruku-tanggal{
+  font-size: 15px;
+}
+.breadcrumb a{
+  text-decoration: none;
+  color: #005a98;
+}
+.breadcrumb a:hover{
+  text-decoration: none;
+  color: #67bce3;
+}
+.breadcrumb{
+  margin-bottom: 0px;
+}
+.crumb{
+  background-color: transparent;
+}
+.guruku-penulis{
+  color: #8c8c8c;
+}
+.guruku-detail-gambar img{
+  /*height: 400px;*/
+  margin-bottom: 10px;
+}
+.guruku-populer{
+  font-weight: bold;
+  font-size: 30px;
+}
+.guruku-berita-populer{
+  border-left: 1px solid #7e0001;
+}
+.guruku-isi{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.guruku-wawancara{
+  font-size: 16px;
+}
+.guruku-daftar-populer{
+  margin-bottom: 10px;
+}
+.guruku-cuplikan{
+  font-size: 16px;
+  text-align: justify;
+}
+.artikel-isi{
+  text-align: justify;
+}
+@@media query {
+
+}

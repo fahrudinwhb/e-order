@@ -1,0 +1,118 @@
+.judul-list-menu{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.add-menu-wrap{
+    text-align: right;
+    margin-bottom: 25px;
+}
+.add-menu-wrap a{
+    padding: 5px 7px;
+    background-color: #00acd6;
+    color: white !important;
+    text-decoration: !important;
+}
+.add-menu-wrap a i{
+    margin-right: 3px;
+}
+.menu-wrap{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-top: none;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+.menu-wrap:nth-child(odd){
+    border-right: none;
+    border-left: none;
+    /*background-color: red;*/
+}
+.menu-wrap:nth-child(even){
+    border-right: none;
+}
+.atribut-menu,.gambar-menu{
+    position: relative;
+    height: 125px;
+    overflow: hidden;
+}
+.kategori-menu{
+    position: absolute;
+    bottom: 0;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nama-menu{
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.harga-menu{
+    position: absolute;
+    right: 0;
+    color: #dc3522;
+}
+.promo-menu{
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+}
+.deksripsi-menu{
+    color: rgba(52, 73, 94, 0.8);
+    font-size: 14px;
+    font-weight: 500;
+}
+.baru-menu{
+    background-color: #50d87f;
+    color: white;
+    font-size: 12px;
+    padding: 1px 5px;
+    padding-top: 0;
+    border-radius: 2px;
+    margin-left: 2px;
+    position: relative;
+    top: -2px;
+}
+.menu-hover-option{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(52, 73, 94, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-wrap:hover .menu-hover-option{
+    opacity: 1;
+}
+.hover-option{
+    text-align: center;
+}
+.hover-option-edit a,.hover-option-hapus a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.hover-option-edit{
+    background-color: #2ecc71;
+    padding: 4px 6px;
+}
+.hover-option-hapus{
+    background-color: #ed5946;
+    padding: 4px 6px;
+}
+.how-how tr,.how-how td{
+    padding: 5px;
+    border : 1px solid #ddd;
+}
+/*.table-bordered tr{
+
+}*/

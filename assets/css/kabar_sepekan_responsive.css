@@ -1,0 +1,52 @@
+@media (max-width: 768px){
+  .artikel-judul-utama{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .artikel-tanggal{
+    font-size: 12px;
+  }
+  .artikel-berita{
+    font-size: 18px;
+  }
+  .artikel-gambar-berita img{
+    height: 100px;
+  }
+  .artikel-judul-berita{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-bottom: 0px;
+  }
+  .artikel-tanggal-berita{
+    font-size: 12px;
+  }
+  .artikel-cuplikan-berita2{
+    background-color: #f9f9f9;
+    height: 100px;
+  }
+  .artikel-berita-populer{
+    border-left: 1px solid white;
+  }
+  .artikel-judul-berita2{
+    margin: 0px;
+  }
+  .artikel-tanggal{
+    margin: 0px;
+  }
+  .artikel-garis{
+    margin-top: 0px;
+  }
+  .artikel-populer{
+    background-color: #7e0001;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+  }
+  .artikel-detail-gambar img{
+    margin-bottom: 10px;
+    height: auto;
+  }
+}

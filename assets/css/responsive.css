@@ -1,0 +1,146 @@
+/*global*/
+@media (max-width: 768px){
+    div[class*='row-'] {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 768px){
+    .no-padding-reponsive{
+        padding: 0;
+    }
+}
+/*slider*/
+@media (max-width: 768px){
+    .caption-bg{
+        position: absolute;
+        bottom: -10%;
+        left: 0%;
+        background-color: rgba(48, 48, 48, 0.5);
+        color: white;
+        opacity: 0;
+        width: 100%;
+        height: 40px;
+    }
+    .caption-foto{
+        width: 40px !important;
+        height: 40px !important;
+        display: inline !important;
+        margin-top: 0px;
+    }
+    .caption-body{
+        position: relative;
+        top: -35px;
+        left: 44px;
+    }
+    .caption-title{
+        font-size: 8px;
+    }
+    .caption-text{
+        font-size: 8px;
+    }
+    .slider-next{
+        position: absolute;
+        top: 30%;
+        right: 0px;
+        font-size: 10px;
+        opacity: 0.3;
+    }
+    .slider-prev{
+        position: absolute;
+        top: 30%;
+        left: 0px;
+        font-size: 10px;
+        opacity: 0.3;
+    }
+}
+/*hidup-guruku*/
+@media (max-width: 768px){
+    .hidup-guruku-side{
+        padding-left: 0px;
+    }
+    .hidup-guruku-main div.hidup-guruku-main-text{
+        left: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+/*recent-work*/
+@media (max-width: 768px){
+    .recent-work-item{
+        padding-left: 0;
+    }
+}
+@media (max-width: 768px){
+    .recent-work-body{
+        text-align: justify;
+    }
+}
+/*video*/
+@media (max-width: 768px){
+    .video-content{
+        padding: 0;
+    }
+    .video-content-wrap{
+        padding: 0;
+    }
+}
+@media (max-width: 768px){
+    .video-text{
+        margin-top: 10px;
+        padding: 0;
+    }
+}
+@media (max-width: 768px){
+    ::-webkit-scrollbar-track {
+        border-radius: 4px;
+     background-color: rgba(0, 0, 0, .5);
+     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+}
+@media (min-width: 1199px){
+    .head-line-hot img{
+        height: 420px !important;
+        overflow-y: hidden;
+    }
+    .head-line-side{
+        height: 420px !important;
+        overflow: hidden;
+    }
+}
+@media (max-width: 767px){
+    .head-line-hot img{
+        height: 220px !important;
+        overflow-y: hidden;
+    }
+    .head-line-side{
+        height: auto;
+        overflow:hidden;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .slick-list{
+        height: auto !important;
+    }
+    .artikel-wrap{
+        padding: 0 !important;
+    }
+    .layanan-slider-item p{
+        display: none;
+    }
+    #jurnal-inspirasi{
+        margin-top: 35px;
+    }
+    #jembatan-pengetahuan{
+        margin-top: 35px;
+    }
+    .separator{
+        height: 20px;
+    }
+    .separator2{
+        margin-top: 0;
+    }
+}

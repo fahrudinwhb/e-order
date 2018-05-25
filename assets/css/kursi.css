@@ -1,0 +1,119 @@
+.meja-wrap{
+    background-color: white;
+}
+.baris span{
+  line-height: 50px;
+  color: white;
+}
+/*baris satu*/
+.satu-b1{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+  text-align: center;
+}
+.dua-b1{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+}
+.sebelas-b1{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+  text-align: center;
+}
+.duabelas-b1{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+}
+/*end baris satu*/
+/*baris enam*/
+.satu-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+  text-align: center;
+}
+.dua-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+}
+.sebelas-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+  text-align: center;
+}
+.duabelas-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+}
+.enam-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+  text-align: center;
+}
+.tujuh-b6{
+  background-color: white;
+  height: 50px;
+  /*width: 50px;*/
+}
+
+/*end baris enam*/
+/*baris*/
+.meja{
+    background-color: #1abc9c;
+    height: 50px;
+    /*width: 50px;*/
+    text-align: center;
+    border-radius: 5px;
+}
+.isi{
+    background-color: #e74c3c;
+}
+.meja:hover{
+    background-color: rgba(26, 188, 156, 0.8);
+    cursor: pointer;
+}
+.isi:hover{
+    background-color: rgba(231, 76, 60, 0.8);
+    cursor: pointer;
+}
+/*end baris*/
+/*end hover*/
+.judul{
+  height: 75px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  }
+.baris{
+  margin-bottom: 10px;
+}
+.judul p{
+  text-align: center;
+  font-size: 30px;
+  line-height: 75px;
+  color: black;
+  border-bottom: 1px solid;
+}
+.meja-genap{
+    background-color: green;
+    height: 50px;
+    /*width: 50px;*/
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+}
+.meja-body-modal{
+    /*text-align: center;*/
+}
+.meja-body-modal table{
+    /*width: 75%;*/
+    width: 100%;
+}
